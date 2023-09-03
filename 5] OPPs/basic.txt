@@ -1,0 +1,59 @@
+
+// Class= Car  // classes are blueprint or templet build for real word entities
+// Object= bmw,toyota,audi,etc.  // Instences of the class
+
+// Characterist of object
+//  1] Identity: unique name of object eg. bmw,toyota 
+//  2] state: Attribute  eg. color, model no 123
+//  3] behaviour: What can it do eg. break, accalarate
+
+Class: 
+     1]Assess modifiers : 4 types
+                        1] public 2] private 3] default 4] protected
+        eg:
+             public class Car{
+                // class body                   
+                  } 
+
+// creat a object
+    
+ className Object name = new className();
+
+
+to access the Attribute:  ObjectName.Attribute/method
+
+//Q: Creat a class name Person with variable age?
+
+
+  class Person{
+
+    int age=20;
+    
+    public static void main(String[] args){
+
+        Person harsh= new Person();
+                ^         ^
+                |         |
+ // reference variable  // object
+        System.out.println(harsh.age)
+    }
+  }
+
+//-----------------------------------------------------------------------------
+
+class student{
+     
+     int rollno=1;
+     String studentName='harsh';
+     }
+
+public class basic{
+
+    Public static void main(String[] args){
+
+        student obj1= new student();
+        System.out.println(obj1.rollno);
+         System.out.println(obj1.studentName);
+
+    }
+}
