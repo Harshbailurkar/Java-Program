@@ -2,10 +2,10 @@ import java.awt.*;
 
 class ComponentP1 extends Frame {
     TextField t1;
-    Label L2;
+    Label l1, L2;
 
     ComponentP1() {
-        Label l1 = new Label("Your Name:");
+        l1 = new Label("Your Name:");
         l1.setBounds(30, 80, 80, 20); // Adjusted the Y position
         add(l1);
 

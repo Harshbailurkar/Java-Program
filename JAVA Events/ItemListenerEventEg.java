@@ -20,8 +20,8 @@ public class ItemListenerEventEg extends JFrame implements ItemListener {
         // Set JFrame properties
         setSize(400, 500);
         setLayout(null);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setVisible(true); // Display the JFrame
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setVisible(true);
     }
 
     public void itemStateChanged(ItemEvent ie) {

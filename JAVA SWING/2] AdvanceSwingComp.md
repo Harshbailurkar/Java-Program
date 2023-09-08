@@ -2,7 +2,7 @@
 
 ##  1. JTabbedPane:
 
-- JTabbedPane is a component which have group of multiple Tabs.each containg titile and panel as a group of component.
+- JTabbedPane is a component which have group of multiple Tabs.each containg title and panel as a group of component.
 - whenver user click on tab then it will be visible and user can iteract with that tab.
 - We craete object of default constructors and add diff. tab using addTab() method.
 - defined as void addTab(String title, Component Obj).
@@ -25,10 +25,10 @@
   
 -Here horizontal and vertical contants are:
 
-1. ScrollPaneContants.HORIZONTAL_SCROLLBAR_ALWAYS
-2. ScrollPaneContants.HORIZONTAL_SCROLLBAR_AS_NEEDED
-3. ScrollPaneContants.VERTICAL_SCROLLBAR_ALWAYS
-4. ScrollPaneContants.VERTICAL_SCROLLBAR_AS_NEEDED
+1. ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS
+2. ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED
+3. ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS
+4. ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED
    
 ## JTree
 - Its i tree like representation of data.
@@ -68,7 +68,7 @@
 - This Pop-up Msg can be short discription of that component,
 - We can add ToolTip to almost all Componrnts.
 - To add the ToolTip we have setToolTipText();
-- defined AS void setTootTipText( String Text);
+- defined As void setToolTipText( String Text);
   
 
   ## JSlider
