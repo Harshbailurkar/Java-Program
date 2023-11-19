@@ -30,3 +30,17 @@
               This method returns an InetAddress object created from the raw IP address.
 
   ### Instance Methods of InetAddress
+      1. boolean equals(obj): \
+                This methods return true if invoking object has same IP Address as another object IP address otherwise it return false
+
+      2. byte[] getAddress() :
+                This method return byte[] that represent internet address of invoking address.
+
+      3. String getHostName(): 
+                 This method return String thet represent Host Name of internet address of Invoking object.
+      
+      4. String getHostAdress():
+                 This method return String represents host IP adress assosiate with invoking Obj.
+      
+      5. boolean isMulticastAddress():
+                This method return true if invoking internet address is form of range 224 to 239 otherwise return false.

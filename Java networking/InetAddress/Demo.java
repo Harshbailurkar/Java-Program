@@ -3,6 +3,7 @@ import java.net.*;
 
 public class Demo {
     public static void main(String[] args) throws Exception {
+
         InetAddress address = InetAddress.getLocalHost();
         System.out.println(address);
 

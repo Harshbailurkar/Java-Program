@@ -10,9 +10,14 @@ public class Demo2 {
         String i1 = address1.getHostAddress();
         String i2 = address1.getHostName();
         boolean i3 = address1.isMulticastAddress();
-        System.out.println(i1);
-        System.out.println(i2);
-        System.out.println(i3);
+        byte[] i4 = address1.getAddress();
+
+        System.out.println(i1); // false
+        System.out.println(i2); // 142.250.199.132
+        System.out.println(i3); // www.google.com
+        for (byte b : i4) {
+            System.out.print(b + " "); // -114 -6 -57 -124
+        }
 
     }
 }
