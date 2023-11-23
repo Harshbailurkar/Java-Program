@@ -42,7 +42,7 @@
 - we simple add componts on Panel and this panel will get add on Frame or applet by using add() method.
   
 ## Frame:
-- Frame is actual stand Alone window which has barder, menubar, titilebar and resizing corner.
+- Frame is actual stand Alone window which has border, menubar, titilebar and resizing corner.
 - It is Top-level Window that that has componets in It.
 
 * Constructors:
